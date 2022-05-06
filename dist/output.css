@@ -683,9 +683,23 @@ Ensure the default browser behavior of the `hidden` attribute.
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.duration-150 {
+  transition-duration: 150ms;
+}
+
 .hover\:border-azul-claro:hover {
   --tw-border-opacity: 1;
   border-color: rgb(197 223 255 / var(--tw-border-opacity));
+}
+
+.hover\:bg-azul-claro:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(197 223 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-azul-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 87 176 / var(--tw-bg-opacity));
 }
 
 .hover\:ring-1:hover {
